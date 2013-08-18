@@ -9,12 +9,16 @@
 //4. if match is found return the position 
 //5. if no match is found, return -1
 //
+//
+//******************THIS IS BETA VERSION**********SEE BINARY_SEARCH_IMPROVED.C FOR THE FINAL VERSION****
+//
+//******************THIS VERSION HAS BUGS - IT DOES NOT ALWAYS FINDS VALUES AT THE END OF THE ARRAY***
 
 #include<stdio.h>
 
 int main() {
 
-	int k,d,e,f,z, s=0, l, t, position;
+	int k,d,e,f,z, s=0, l, t, position;  //purpose of d,e,f,z vars is to fill mem locations after the last element of the array, otherwise, value t from scanf will be placed into input[l] location
 
 	printf("\nEnter the size of array: ");
 	scanf("%i", &l);
@@ -45,7 +49,7 @@ int main() {
 return 0;
 }
 
-int match(int input[], int s, int l, int t) {
+int match(int input[], int s, int l, int t) {  // ...clumsy....
 
 //	printf("\nBeginning function: s= %i, l= %i, s+l = %i, N+1 = %i\n\n", s, l, s+l, N+1);
 //	printf("input[l] = %i\n", input[l]);
