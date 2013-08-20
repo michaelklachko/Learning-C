@@ -29,7 +29,7 @@ int main() {
 				printf("%i ", input[i][j]);
 				sum=sum+input[i][j];
 			}
-			output[i] = sum/8;
+			output[i] = sum/7;
 			sum=0;
 			printf("\n");
 		}
