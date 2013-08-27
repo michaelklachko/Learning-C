@@ -1,0 +1,7 @@
+Monday: 4.62 
+Tuesday: 5.12 
+Wednesday: 5.88 
+Thursday: 4.62 
+Friday: 2.88 
+Saturday: 4.00 
+Sunday: 4.75 
