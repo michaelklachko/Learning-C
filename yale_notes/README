@@ -1,0 +1,13 @@
+
+http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html
+
+I started working through C tutorial, June 24, 2016
+command:
+gcc -std=c11 -g3 -o filename filename.c
+for profiling:
+gcc -gp3 -static -o f f.c and add -lm if including math library
+Ofast option is more aggressive than O3
+gcc -S will produce an assembly source code file
+Adding another line...
+Testing git commit -v option, which should include diif into the commit description message.
+
